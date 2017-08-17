@@ -41,40 +41,54 @@
 	padding: 20px;
 	/*margin-left: 40px;
 	margin: 10px;
-	vertical-align: top;
-}*/
+	vertical-align: top;*/
+/*}*/
 
-#photo img{
-	width: 380px;
-	height: 400px;
-	border: 7px solid #c0c0c0;
-	margin: 10px;
+/*figure {
+	display: inline-block;
+	width: 360px;
+	margin: 20px;
+}
+
+figure img{
+	width: 100%;
+	margin: 20px;
+	border: 4px color: #c0bfbf;*/
+
+/*}*/
+
+
+.about_me img{
+	width: 360px;
+	height: 250px;
+	margin: 20px;
 	vertical-align: top;
+	border: 4px solid #c0bfbf;
+	display: inline-block;
 }
 
 #about{
 	background-color: teal;
-	width: 490px;
-	height: 411px;
+	width: 522px;
+	height: 260px;
 	display: inline-block;
 	vertical-align: top;
-	margin: 10px;
+	/*margin: 10px;*/
+	margin-top: 20px;
 }
 
 #about h3{
 	background-color: #9e9da5;
 	display: block;
 	padding: 10px;
-	font-size: 30px;
 }
 
 #about p{
-	padding: 10px;
-	font-size: 22px;
+	padding: 5px;
+
 }
 
 #about a{
-	font-size: 22px;
 	padding: 10px;
 }
 
@@ -85,23 +99,53 @@
 
 }
 
-#la_mode{
+#content p{
+	padding: 20px;
+	display: block;
+}
+
+#content img{
+/*	width: 100px;
+	height: 100px;*/
+	/*vertical-align: top:;*/
+}
+
+#lamode_img{
+	height: 140px;
+
+}
+.logo{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	
+}
+
+.text_box_header{
+	background-color: #8a8895;
+	vertical-align: top;
+	color: #fdf8f1;
+	margin: 0px;
+}
+
+
+#la_mode {
 	background-color: white;
 	width: 255px;
 	height: 465px;
 	display: inline-block;
 	margin-left: 20px;
+	margin-top: 10px;
 	padding: 20px;
 	vertical-align: top;
-
 }
 
-.text_box_header{
-	height: 100px;
-	/*width: 60px;*/
-	padding-top: 10px;
-	display: block;
-}
+
+
+
+/*.text_box_header h3{
+
+}*/
 
 #family_contacts{
 	background-color: orange;
@@ -122,6 +166,7 @@
 	padding: 20px;
 
 }
+
 
 /* * * * * * * * * * * * * * *
  * Bottom Section            *
