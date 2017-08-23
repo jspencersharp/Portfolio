@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+      .test{
+        color: blue;
+      }
+    </style>
+  </head>
+  <script>
+    $(document).ready(function() {
+      $("#click button").click(function() {
+        $("#click p").hide()
+      })
+      $("#show button").click(function() {
+        $("#click p").show()
+        console.log("trust me, something happened");
+      })
+      $("#toggle button").click(function() {
+        $("#toggle p").toggle()
+      })
+      $("#slideDown p").hide()
+      $("#slideDown button").click(function() {
+        $("#slideDown p").slideDown()
+      })
+      $("#slideUp button").click(function() {
+        $("#slideUp p").slideUp()
+      })
+       $("#slideToggle button").click(function() {
+        $("#slideToggle p").slideToggle()
+      })
+      $("#fadeIn p").hide()
+      $("#fadeIn button").click(function() {
+        $("#fadeIn p").fadeIn()
+      })
+      $("#fadeOut button").click(function() {
+        $("#fadeOut p").fadeOut()
+      })
+      $("#addClass button").click(function() {
+        $("#addClass p").addClass("test")
+      })
+      $("#before button").click(function () {
+        $("#before p").before("<p>Hello</p>")
+      })
+      $("#after button").click(function () {
+        $("#after p").after("<p>Hello</p>")
+      })
+      $("#append button").click(function () {
+        $("#append p").append("<p>Hello</p>")
+      })
+      $("#html button").click(function () {
+        $("#html p").html("<span class='test'>It's gone <b>FOREVER</b></span>")
+      })
+      $("#attr button").click(function () {
+        $("#attr p").html("<span class='test'>It's gone <b>FOREVER</b></span>")
+      })
+    })
+  </script>
+  <body>
+    <div id="click">
+      <h1>Click and Hide method</h1>
+      <button>Click me!</button>
+      <p>Click the button above to hide</p>
+    </div>
+    <hr>
+    <div id="show">
+      <h1>Show method</h1>
+      <button>Click me!</button>
+      <p>Click the button above to show</p>
+    </div>
+    <hr>
+    <div id="toggle">
+      <h1>Toggle method</h1>
+      <button>Click me!</button>
+      <p>Click the button above to toggle</p>
+    </div>
+    <hr>
+    <div id="slideDown">
+      <h1>slideDown method</h1>
+      <button>Click me!</button>
+      <p>Click the button above to slideDown</p>
+    </div>
+    <hr>
+     <div id="slideUp">
+      <h1>slideUp method</h1>
+      <button>Click me!</button>
+      <p>Click the button above to slideUp</p>
+    </div>
+    <hr>
+    <div id="slideToggle">
+      <h1>slideToggle method</h1>
+      <button>Click me!</button>
+      <p>Click the button above to slideToggle</p>
+    </div>
+    <hr>
+    <div id="fadeIn">
+      <h1>fadeIn method</h1>
+      <button>Click me!</button>
+      <p>Click the button above to fadeIn</p>
+    </div>
+    <hr>
+    <div id="fadeOut">
+      <h1>fadeOut method</h1>
+      <button>Click me!</button>
+      <p>Click the button above to fadeOut</p>
+    </div>
+    <hr>
+      <div id="addClass">
+      <h1>addClass method</h1>
+      <button>Click me!</button>
+      <p>Click the button above to addClass</p>
+    </div>
+    <hr>
+     <div id="before">
+      <h1>before method</h1>
+      <button>Click me!</button>
+      <p>Click the button above to before</p>
+    </div>
+    <hr>
+    <div id="after">
+     <h1>after method</h1>
+     <button>Click me!</button>
+     <p>Click the button above to after</p>
+   </div>
+   <hr>
+   <div id="append">
+    <h1>append method</h1>
+    <button>Click me!</button>
+    <p>Click the button above to append</p>
+  </div>
+  <hr>
+  <div id="html">
+   <h1>html method</h1>
+   <button>Click me!</button>
+   <p>Click the button above to html</p>
+  </div>
+  <hr>
+  <input id="check1" type="checkbox" checked="checked">
+<label for="check1">Check me</label>
+<p></p>
+ <div id="attr">
+   <h1>attr method</h1>
+   <button>Click me!</button>
+   <p>Click the button above to html</p>
+  </div>
+  <hr>
+  </body>
+</html>
+

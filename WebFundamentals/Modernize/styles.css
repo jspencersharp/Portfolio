@@ -1,0 +1,291 @@
+/*Reset CSS Settings */ 
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.container {
+	width: 970px;
+/*	height: 900px;*/
+	background-color: #171717;
+}
+/* HEADER INFO*/
+.header{
+	width: 970px;
+	/*height: 60px;*/
+	background-color: #1a1a1a;
+	display: block;
+	padding-top: 10px;
+}
+
+.header p{
+	color: #d0d0d0;
+	text-align: right;
+	vertical-align: top;
+}
+
+/*#menue_bar{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: inline;
+	vertical-align: top;
+	color: #9c9fa1;
+	overflow: hidden;
+}*/
+
+.nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #a2a4a6;
+}
+
+.nav li{
+	float: left;
+}
+
+.nav li a{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	padding: 14px 16px;
+}
+/*TOP SECTION*/
+.top_section{
+	width: 970px;
+	/*height: 350px;*/
+	background-color: blue;
+	display: inline-block;
+}
+
+#menue_bar{
+	width: 970px;
+	height: 50px;
+	background-color: #454545;
+	display: block;
+}
+
+.top_section img{
+	width: 970px;
+	height: 300px;
+	display: block;
+	vertical-align: top;
+/*	border: 3px solid black;*/
+}
+
+#body_links{
+	width: 970px;
+	/*height: 100px;*/
+	background-color: #1a1a1a;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#body_links img{
+	width: 20px;
+	height: 20px;
+	vertical-align: top;
+}
+
+#body_links p{
+	color: #b5b3a8;
+
+}
+
+#body_links h2{
+	color: #f28138;
+	font-size: 12px;
+}
+
+#body_links h2, p{
+	margin-left: 22px;
+	vertical-align: top;
+	text-indent: 5px;
+	text-align: top;
+}
+#Ridiculus{
+	width: 200px;
+	height: 100px;
+	/*background-color: brown;*/
+	display: inline-block;
+	margin-left: 20px;
+	padding: 10px;
+}
+
+#Ipsum{
+	width: 200px;
+	height: 100px;
+	/*background-color: chartreuse;*/
+	display: inline-block;
+}
+
+#Tellus{
+	width: 200px;
+	height: 100px;
+/*	background-color: darkblue;*/
+	display: inline-block;
+}
+
+#sem{
+	width: 200px;
+	height: 100px;
+/*	background-color: deeppink;*/
+	display: inline-block;
+}
+
+/*MIDDLE SECTION*/
+.middle_section{
+	width: 970px;
+	height: 100px;
+	/*background-color: gray;*/
+	display: inline-block;
+	/*display: inline;*/
+	background: repeating-linear-gradient(
+ 		 45deg,
+ 		#1a1a1a,
+  		#050505 10px,
+);
+}
+
+.middle_section button{
+	display: inline;
+	position: relative;
+	left: 600px;
+}
+
+.middle_section h1{
+	color: #fefefe;
+	font-size: 20px;
+	text-indent: 15px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.middle_section p{
+	color: #8e9fa9;
+}
+
+.middle_section button{
+	background-color: #ee8a48;
+	color: white;
+	border-radius: 4px;
+	
+}
+
+/*BOTTOM Section*/
+.bottom_section{
+	width: 970px;
+	height: 350px;
+	background-color: #1a1a1a;
+	display: inline-block;
+	vertical-align: top;
+/*	text-align: center;*/
+	
+}
+
+.bottom_links{
+	width: 970px;
+/*	height: 100px;*/
+	background-color: #1a1a1a;
+	text-align: center;
+	/*display: inline-block;*/
+/*	vertical-align: top;*/
+	padding-top: 10px;
+	margin-right: 10px;
+
+}
+
+.bottom_section h3{
+	color: #e1eff6;
+	vertical-align: top;
+	margin-left: 22px;
+	font-size: 20px;
+	
+
+}
+
+.bottom_section h4{
+	color: #c65b2c;
+	vertical-align: top;
+	text-align: right;
+	
+}
+
+.bottom_links img{
+	width: 228px;
+	height: 173px;
+	border: 4px solid #363636;
+}
+
+.bottom_links h5{
+	color: #e67736;
+	text-align: left;
+	text-indent: 22px;
+	font-size: 17px;
+	margin-bottom: 5px;
+	margin-top: 10px;
+
+}
+
+.bottom_links p{
+	text-indent: 0px;
+	text-align: left;
+
+	color: #c3c1a9;
+}
+#Shortcode{
+	width: 230px;
+	height: 312px;
+	display: inline-block;
+	/*background-color: snow;*/
+	vertical-align: top;
+}
+
+#New_page{
+	width: 230px;
+	height: 312px;
+	display: inline-block;
+	/*background-color: lawngreen;*/
+	vertical-align: top;
+}
+
+#access_elements{
+	width: 230px;
+	height: 312px;
+	display: inline-block;
+	/*background-color: tan;*/
+	vertical-align: top;
+}
+
+#custom_post{
+	width: 230px;
+	height: 312px;
+	display: inline-block;
+/*	background-color: orangered;*/
+	vertical-align: top;
+}
+
+/*FOOTER*/
+.footer{
+	width: 970px;
+	height: 20px;
+	background-color: #1a1a1a;
+	margin-top: 14px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.footer p, a{
+	color: #526468;
+	text-align: right;
+	font-size: 14px;
+	vertical-align: bottom;
+	padding-right: 15px;	
+}
+
+.footer a{
+	text-decoration: none;
+}

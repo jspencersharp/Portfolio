@@ -11,8 +11,9 @@
 
 .container{
 	width: 970px;
-	height: 800px;
-	background-color: red;
+/*	height: 800px;*/
+	background-color: #4a373f;
+	padding-bottom: 15px;
 }
 
 .header{
@@ -23,16 +24,33 @@
 	padding-top: 10px;
 }
 
+.header h1, h2{
+	height: 100px;
+	padding-top: 10px;
+	display: inline-block;
+
+}
+
+.header h1{
+	padding-left: 5px;
+}
+
+.header h2{
+	position: relative;
+	left: 400px;
+	
+}
+
 /* * * * * * * * * * * * * * *
  * Body Section              *
  * * * * * * * * * * * * * * */
 
-#about_me{
+/*#about_me{
 	width: 970px;
 	height: 200px;
-	background-color: yellow;
+	background-color: ##e9e1e9;
 }
-
+*/
 /*#photo{
 	background-color: black;
 	display: inline-block;
@@ -75,10 +93,11 @@ figure img{
 	vertical-align: top;
 	/*margin: 10px;*/
 	margin-top: 20px;
+	background-color: #e9e1e9;
 }
 
 #about h3{
-	background-color: #9e9da5;
+	background-color: #a09fa7;
 	display: block;
 	padding: 10px;
 }
@@ -94,13 +113,14 @@ figure img{
 
 #content{
 	width:970px;
-	height: 530px;
-	background-color: green;
+	/*height: 530px;*/
+	/*background-color: green;*/
+	margin-bottom: 10px;
 
 }
 
 #content p{
-	padding: 20px;
+	padding: 10px;
 	display: block;
 }
 
@@ -112,7 +132,12 @@ figure img{
 
 #lamode_img{
 	height: 140px;
+	width: 298px;
+}
 
+#fiveel{
+	height: 140px;
+	width: 289px;
 }
 .logo{
 	width: 40px;
@@ -126,44 +151,79 @@ figure img{
 	vertical-align: top;
 	color: #fdf8f1;
 	margin: 0px;
+	padding-left: 8px;
 }
 
 
 #la_mode {
-	background-color: white;
-	width: 255px;
-	height: 465px;
+	background-color: #f1ecf1;
+	width: 300px;
+	height: 546px;
 	display: inline-block;
 	margin-left: 20px;
-	margin-top: 10px;
-	padding: 20px;
+	/*padding: 20px;*/
+	padding-top: 0px;
+	margin-top: 0px;
 	vertical-align: top;
 }
-
-
-
-
 /*.text_box_header h3{
 
 }*/
-
-#family_contacts{
-	background-color: orange;
-	width: 255px;
-	height: 465px;
-	display: inline-block;
-	margin-left: 10px;
-	padding: 20px;
+#fam_img{
+	height: 140px;
+	width: 300px;
 }
 
-#fiveEleven{
-	background-color: purple;
-	width: 255px;
-	height: 465px;
+#family_contacts{
+	background-color: #f1ecf1;
+	width: 300px;
+	height: 546px;
 	display: inline-block;
-	margin-left: 10px;
-	margin-top: 10px;
-	padding: 20px;
+	margin-left: 20px;
+	/*padding: 20px;*/
+	padding-top: 0px;
+	vertical-align: top;
+}
+
+#family_contacts p{
+	width: 225;
+	/*padding: 5;*/
+}
+
+
+#fiveEleven{
+	background-color: #f1ecf1;
+	width: 290px;
+	height: 546px;
+	display: inline-block;
+	margin-left: 20px;
+	/*padding: 20px;
+*/	padding-top: 0px;
+	vertical-align: top;
+	margin-right: 10px;
+
+}
+
+.Techeader{
+	background-color: #8a8895;
+	vertical-align: top;
+	color: #fdf8f1;
+	margin: 0px;
+	padding-left: 8px;
+}
+
+.button{
+background-color:    #407d61;
+border:        1px solid #426c59;
+border-radius: 11px;
+box-shadow:    1px 1px #444444;
+padding:       8px 8px;
+color:         #f1e6b6;
+display:       inline-block;
+font:          normal 700 24px/1 "Calibri", sans-serif;
+text-align:    center;
+text-shadow:   1px 1px #000000;
+font-size: 12px;
 
 }
 
@@ -173,9 +233,14 @@ figure img{
  * * * * * * * * * * * * * * */
 
 #footer{
-	width: 970px;
-	height: 60px;
-	background-color: brown;
+	max-width: 970px;
+	width: 100%;
+	margin: 0 auto;
+	height: 40px;
+	background-color: #f6f6f6;
 	display: block;
-	vertical-align: bottom;
+	position: relative;
+	text-align: center;
+	/*vertical-align: bottom;*/
+	padding: 0;
 }

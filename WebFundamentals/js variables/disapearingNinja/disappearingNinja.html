@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Disappearing Ninja</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+      var HTMLstring = "";
+      for(var i = 0; i < 8; i++){
+          HTMLstring += <image src="ninja.png" alt="ninja_image"/>
+      }
+        HTMLstring +='<button>RESTORE</button>'
+        $(document).ready(function() {
+            $(".container").append(HTMLstring)
+
+            $("img").click(function(){
+                $(this).hide("slow")
+            })
+
+            $("button").click(function(){
+                $("img").show();
+            })
+      
+      })
+    </script>
+
+  </head>
+
+    <body>
+        <!-- <image src="ninja.png" alt="ninja image"/> -->
+        <div class="container">
+        </div>
+    <!-- <button type="button">Restore</button> -->
+    </body>
+</html>
