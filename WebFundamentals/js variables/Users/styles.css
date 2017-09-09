@@ -1,0 +1,24 @@
+	table {
+		border: 1px solid black;
+		width: 30%;
+	}
+
+	td {
+		margin-right: 20px;
+	}
+
+	h1 {
+		border-bottom: 3px solid black;
+		width: 30%;
+	}
+
+	form {
+		width: 24%;
+		margin-left: 100px; 
+	}
+
+	input {
+		display: inline-block;
+		width: 300px;
+		margin-right: 15px;
+	}

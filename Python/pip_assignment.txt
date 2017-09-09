@@ -1,0 +1,140 @@
+Pip install Django
+	a) received error that I did not have permission to access files in /Library - did a search but did not have very much look finding a solution online. Finally I went directly to the directory that the error threw and manually changed the permissions so that ‘everyone’ can read/write that directory. 
+	b) Successfully installed Django-1.11.4
+
+Pip list
+	a) did a search and found that pip list [options] returns a list of installed packages, including editable. 
+	b) here is the result of pip list: 
+		DEPRECATION: The default format will switch to columns in the future. You can use --format=(legacy|columns) (or define a format=(legacy|columns) in your pip.conf under the [list] section) to disable this warning.
+altgraph (0.10.2)
+bdist-mpkg (0.5.0)
+bonjour-py (0.3)
+Django (1.11.4)
+macholib (1.5.1)
+matplotlib (1.3.1)
+modulegraph (0.10.4)
+numpy (1.8.0rc1)
+pip (9.0.1)
+py2app (0.7.3)
+pyobjc-core (2.5.1)
+pyobjc-framework-Accounts (2.5.1)
+pyobjc-framework-AddressBook (2.5.1)
+pyobjc-framework-AppleScriptKit (2.5.1)
+pyobjc-framework-AppleScriptObjC (2.5.1)
+pyobjc-framework-Automator (2.5.1)
+pyobjc-framework-CFNetwork (2.5.1)
+pyobjc-framework-Cocoa (2.5.1)
+pyobjc-framework-Collaboration (2.5.1)
+pyobjc-framework-CoreData (2.5.1)
+pyobjc-framework-CoreLocation (2.5.1)
+pyobjc-framework-CoreText (2.5.1)
+pyobjc-framework-DictionaryServices (2.5.1)
+pyobjc-framework-EventKit (2.5.1)
+pyobjc-framework-ExceptionHandling (2.5.1)
+pyobjc-framework-FSEvents (2.5.1)
+pyobjc-framework-InputMethodKit (2.5.1)
+pyobjc-framework-InstallerPlugins (2.5.1)
+pyobjc-framework-InstantMessage (2.5.1)
+pyobjc-framework-LatentSemanticMapping (2.5.1)
+pyobjc-framework-LaunchServices (2.5.1)
+pyobjc-framework-Message (2.5.1)
+pyobjc-framework-OpenDirectory (2.5.1)
+pyobjc-framework-PreferencePanes (2.5.1)
+pyobjc-framework-PubSub (2.5.1)
+pyobjc-framework-QTKit (2.5.1)
+pyobjc-framework-Quartz (2.5.1)
+pyobjc-framework-ScreenSaver (2.5.1)
+pyobjc-framework-ScriptingBridge (2.5.1)
+pyobjc-framework-SearchKit (2.5.1)
+pyobjc-framework-ServiceManagement (2.5.1)
+pyobjc-framework-Social (2.5.1)
+pyobjc-framework-SyncServices (2.5.1)
+pyobjc-framework-SystemConfiguration (2.5.1)
+pyobjc-framework-WebKit (2.5.1)
+pyOpenSSL (0.13.1)
+pyparsing (2.0.1)
+python-dateutil (1.5)
+pytz (2013.7)
+scipy (0.13.0b1)
+setuptools (18.5)
+six (1.4.1)
+xattr (0.6.4)
+zope.interface (4.1.1)
+Pip install Django - 
+	a) already did this above. 
+	b) found some information about using a virtual (?) environment for Python but not sure what this means yet. 
+
+Pip freeze —
+	a) did a search on this. I think (?) that the difference between pip list and pip freeze is that pip freeze returns a file listing installed packages in requirements format. Maybe this isn’t true… when I run pip freeze I get the following output:
+	⁃	b) altgraph==0.10.2
+	⁃	bdist-mpkg==0.5.0
+	⁃	bonjour-py==0.3
+	⁃	Django==1.11.4
+	⁃	macholib==1.5.1
+	⁃	matplotlib==1.3.1
+	⁃	modulegraph==0.10.4
+	⁃	numpy==1.8.0rc1
+	⁃	py2app==0.7.3
+	⁃	pyobjc-core==2.5.1
+	⁃	pyobjc-framework-Accounts==2.5.1
+	⁃	pyobjc-framework-AddressBook==2.5.1
+	⁃	pyobjc-framework-AppleScriptKit==2.5.1
+	⁃	pyobjc-framework-AppleScriptObjC==2.5.1
+	⁃	pyobjc-framework-Automator==2.5.1
+	⁃	pyobjc-framework-CFNetwork==2.5.1
+	⁃	pyobjc-framework-Cocoa==2.5.1
+	⁃	pyobjc-framework-Collaboration==2.5.1
+	⁃	pyobjc-framework-CoreData==2.5.1
+	⁃	pyobjc-framework-CoreLocation==2.5.1
+	⁃	pyobjc-framework-CoreText==2.5.1
+	⁃	pyobjc-framework-DictionaryServices==2.5.1
+	⁃	pyobjc-framework-EventKit==2.5.1
+	⁃	pyobjc-framework-ExceptionHandling==2.5.1
+	⁃	pyobjc-framework-FSEvents==2.5.1
+	⁃	pyobjc-framework-InputMethodKit==2.5.1
+	⁃	pyobjc-framework-InstallerPlugins==2.5.1
+	⁃	pyobjc-framework-InstantMessage==2.5.1
+	⁃	pyobjc-framework-LatentSemanticMapping==2.5.1
+	⁃	pyobjc-framework-LaunchServices==2.5.1
+	⁃	pyobjc-framework-Message==2.5.1
+	⁃	pyobjc-framework-OpenDirectory==2.5.1
+	⁃	pyobjc-framework-PreferencePanes==2.5.1
+	⁃	pyobjc-framework-PubSub==2.5.1
+	⁃	pyobjc-framework-QTKit==2.5.1
+	⁃	pyobjc-framework-Quartz==2.5.1
+	⁃	pyobjc-framework-ScreenSaver==2.5.1
+	⁃	pyobjc-framework-ScriptingBridge==2.5.1
+	⁃	pyobjc-framework-SearchKit==2.5.1
+	⁃	pyobjc-framework-ServiceManagement==2.5.1
+	⁃	pyobjc-framework-Social==2.5.1
+	⁃	pyobjc-framework-SyncServices==2.5.1
+	⁃	pyobjc-framework-SystemConfiguration==2.5.1
+	⁃	pyobjc-framework-WebKit==2.5.1
+	⁃	pyOpenSSL==0.13.1
+	⁃	pyparsing==2.0.1
+	⁃	python-dateutil==1.5
+	⁃	pytz==2013.7
+	⁃	scipy==0.13.0b1
+	⁃	six==1.4.1
+	⁃	xattr==0.6.4
+	⁃	zope.interface==4.1.1
+
+
+Pip unstall Django
+	a) asks you if you are ready to proceed (y/n)… if you type Y then you get the following message:
+	b)   Successfully uninstalled Django-1.11.4
+
+Pip show Django -
+	a) returned nothing
+	b) I think this is because we just installed Django. If we had run this before uninstalling it (I think) should show us information about the package (in this case, Django)
+	⁃	c) Name: Django
+	⁃	Version: 1.11.4
+	⁃	Summary: A high-level Python Web framework that encourages rapid development and clean, pragmatic design.
+	⁃	Home-page: https://www.djangoproject.com/
+	⁃	Author: Django Software Foundation
+	⁃	Author-email: foundation@djangoproject.com
+	⁃	License: BSD
+	⁃	Location: /Library/
+
+Pip search Flask
+	a) did a search on this… allows you to search through the database of packages in Python’s central package repository. In this case, because we selected Flask, the output will be a generated list of any package with the term “Flask” in the name or the description of the page.
